@@ -1,0 +1,2 @@
+?package(fbxkb):needs="X11" section="Apps/Tools"\
+  title="fbxkb" command="/usr/bin/fbxkb"

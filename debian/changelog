@@ -1,0 +1,15 @@
+fbxkb (0.6-1.1) unstable; urgency=low
+
+  * Non-maintainer upload. (Patch by Mònica Ramírez Arceda <monica@probeta.net>)
+  * eggtrayicon.c, fbxkb.c: Replace deprecated gdk_display and GDK_DISPLAY() 
+    with gdk_x11_get_default_xdisplay().
+  * Link to X11 to build with binutils-gold. (Closes: #554280)
+
+ -- Konstantinos Margaritis <markos@debian.org>  Fri, 31 Jan 2012 13:46:19 +0200
+
+fbxkb (0.6-1) unstable; urgency=low
+
+  * Initial Release.
+  * The correct manual page was added.
+
+ -- Vadim Vatlin <vatlin@sthbel.ru>  Wed, 10 Jan 2007 17:29:30 +0300

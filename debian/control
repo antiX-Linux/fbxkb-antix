@@ -1,0 +1,14 @@
+Source: fbxkb
+Section: x11
+Priority: optional
+Maintainer: Vadim Vatlin <vatlin@sthbel.ru>
+Build-Depends: debhelper (>= 5), libgtk2.0-dev, libxmu-dev
+Standards-Version: 3.7.2
+
+Package: fbxkb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
